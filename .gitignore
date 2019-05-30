@@ -1,0 +1,5 @@
+*.o
+build/
+kernel8-32.img
+kernel.list
+kernel.map
