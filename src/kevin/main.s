@@ -172,6 +172,82 @@ _main:
         ldr     r0, =0x1E8480       @; delay in microseconds (2s)
         bl      delay               @; branch to delay function
         @;2-------------------------------------------------------------------
+        @;3-----------------------------------------------------------------
+        @; enable led
+        mov     r0, #1              @; led state 1 = on
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
+        bl      delay               @; branch to delay function
+
+        @; disable led
+        mov     r0, #0              @; led state 0 = off
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x1E8480       @; delay in microseconds (2s)
+        bl      delay               @; branch to delay function
+        @;3-------------------------------------------------------------------
+        @;4-----------------------------------------------------------------
+        @; enable led
+        mov     r0, #1              @; led state 1 = on
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
+        bl      delay               @; branch to delay function
+
+        @; disable led
+        mov     r0, #0              @; led state 0 = off
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x1E8480       @; delay in microseconds (2s)
+        bl      delay               @; branch to delay function
+        @;4-------------------------------------------------------------------
+        @;5-----------------------------------------------------------------
+        @; enable led
+        mov     r0, #1              @; led state 1 = on
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
+        bl      delay               @; branch to delay function
+
+        @; disable led
+        mov     r0, #0              @; led state 0 = off
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x1E8480       @; delay in microseconds (2s)
+        bl      delay               @; branch to delay function
+        @;5-------------------------------------------------------------------
+        @;6-----------------------------------------------------------------
+        @; enable led
+        mov     r0, #1              @; led state 1 = on
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
+        bl      delay               @; branch to delay function
+
+        @; disable led
+        mov     r0, #0              @; led state 0 = off
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x1E8480       @; delay in microseconds (2s)
+        bl      delay               @; branch to delay function
+        @;6-------------------------------------------------------------------
+        @;7-----------------------------------------------------------------
+        @; enable led
+        mov     r0, #1              @; led state 1 = on
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
+        bl      delay               @; branch to delay function
+
+        @; disable led
+        mov     r0, #0              @; led state 0 = off
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x1E8480       @; delay in microseconds (2s)
+        bl      delay               @; branch to delay function
+        @;7-------------------------------------------------------------------
+        
         @;Digit Ketiga Selesai
 
         @;Digit Keempat: 3
@@ -220,9 +296,99 @@ _main:
         ldr     r0, =0x1E8480       @; delay in microseconds (2s)
         bl      delay               @; branch to delay function
         @;3-------------------------------------------------------------------
+        @;4-----------------------------------------------------------------
+        @; enable led
+        mov     r0, #1              @; led state 1 = on
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
+        bl      delay               @; branch to delay function
+
+        @; disable led
+        mov     r0, #0              @; led state 0 = off
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x1E8480       @; delay in microseconds (2s)
+        bl      delay               @; branch to delay function
+        @;4-------------------------------------------------------------------
+        @;5-----------------------------------------------------------------
+        @; enable led
+        mov     r0, #1              @; led state 1 = on
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
+        bl      delay               @; branch to delay function
+
+        @; disable led
+        mov     r0, #0              @; led state 0 = off
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x1E8480       @; delay in microseconds (2s)
+        bl      delay               @; branch to delay function
+        @;5-------------------------------------------------------------------
+        @;6-----------------------------------------------------------------
+        @; enable led
+        mov     r0, #1              @; led state 1 = on
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
+        bl      delay               @; branch to delay function
+
+        @; disable led
+        mov     r0, #0              @; led state 0 = off
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x1E8480       @; delay in microseconds (2s)
+        bl      delay               @; branch to delay function
+        @;6-------------------------------------------------------------------
+        @;7-----------------------------------------------------------------
+        @; enable led
+        mov     r0, #1              @; led state 1 = on
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
+        bl      delay               @; branch to delay function
+
+        @; disable led
+        mov     r0, #0              @; led state 0 = off
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x1E8480       @; delay in microseconds (2s)
+        bl      delay               @; branch to delay function
+        @;7-------------------------------------------------------------------
+        @;8-----------------------------------------------------------------
+        @; enable led
+        mov     r0, #1              @; led state 1 = on
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
+        bl      delay               @; branch to delay function
+
+        @; disable led
+        mov     r0, #0              @; led state 0 = off
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x1E8480       @; delay in microseconds (2s)
+        bl      delay               @; branch to delay function
+        @;8-------------------------------------------------------------------
+        @;9-----------------------------------------------------------------
+        @; enable led
+        mov     r0, #1              @; led state 1 = on
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
+        bl      delay               @; branch to delay function
+
+        @; disable led
+        mov     r0, #0              @; led state 0 = off
+        bl      set_led_state       @; set led state
+
+        ldr     r0, =0x1E8480       @; delay in microseconds (2s)
+        bl      delay               @; branch to delay function
+        @;9-------------------------------------------------------------------
         @;Digit Keempat Selesai
 
-        @;Digit Kelima: 9
+        @;Digit Kelima: 8
         @;1-----------------------------------------------------------------
         @; enable led
         mov     r0, #1              @; led state 1 = on
@@ -343,21 +509,7 @@ _main:
         ldr     r0, =0x30D40       @; delay in microseconds (200ms)                     
         bl      delay               @; branch to delay function
         @;8-------------------------------------------------------------------
-        @;9-----------------------------------------------------------------
-        @; enable led
-        mov     r0, #1              @; led state 1 = on
-        bl      set_led_state       @; set led state
-
-        ldr     r0, =0x30D40       @; delay in microseconds (200ms)
-        bl      delay               @; branch to delay function
-
-        @; disable led
-        mov     r0, #0              @; led state 0 = off
-        bl      set_led_state       @; set led state
-
-        ldr     r0, =0x1E8480     @; delay in microseconds (200ms)                     
-        bl      delay               @; branch to delay function
-        @;9-------------------------------------------------------------------
+       
         @;Digit Kelima Selesai
 
         b       loop$               @; branch to main loop$
